@@ -1,0 +1,430 @@
+combos:
+- k: TRACKBALL
+  l:
+  - '0'
+  p:
+  - 5
+  - 6
+- k: SCROLL
+  l:
+  - '1'
+  p:
+  - 5
+  - 6
+- k: SCROLL
+  l:
+  - '5'
+  p:
+  - 5
+  - 6
+layers:
+  '0':
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - LSHFT
+  - h: LGUI
+    t: A
+  - h: LALT
+    t: S
+  - h: LCTRL
+    t: D
+  - h: LSHFT
+    t: F
+  - G
+  - H
+  - h: RSHFT
+    t: J
+  - h: RCTRL
+    t: K
+  - h: LALT
+    t: L
+  - h: RGUI
+    t: ;
+  - ''''
+  - h: '4'
+    t: LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '-'
+  - '2'
+  - SPACE
+  - LEFT WIN
+  - LALT
+  - ENTER
+  - '4'
+  - '&mkp MB2'
+  - '1'
+  '1':
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - '='
+  - '-'
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - \
+  - '{'
+  - '['
+  - '`'
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - '}'
+  - ']'
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - type: held
+  '2':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - h: toggle
+    t: '0'
+  - ''
+  - Gui+Q
+  - Gui+W
+  - Gui+E
+  - Gui+R
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - '='
+  - '-'
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - ''
+  - ''
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
+  - t: "\u25BD"
+    type: trans
+  - '{'
+  - '['
+  - \
+  - '`'
+  - ''
+  - ''
+  - Gui+P
+  - Gui+N
+  - ''
+  - ''
+  - BT CLR
+  - BT NXT
+  - '}'
+  - ']'
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - ''
+  - type: held
+  - t: "\u25BD"
+    type: trans
+  - '3'
+  - ''
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  '3':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mmv MOVE_UP'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mmv MOVE_L'
+  - '&mmv MOVE_D'
+  - '&mmv MOVE_R'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - type: held
+  - ''
+  - type: held
+  - ''
+  - ''
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  '4':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LSHFT
+  - LGUI
+  - '5'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - t: LCTRL
+    type: held
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - ''
+  - ''
+  - ''
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - ''
+  '5':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - type: held
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - type: held
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - ''
+  - ''
+  - ''
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - ''
+layout:
+  zmk_keyboard: charybdis

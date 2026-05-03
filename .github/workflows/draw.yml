@@ -1,0 +1,53 @@
+name: Draw Keymap
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/*.keymap"
+      - "config/*.json"
+      - ".github/workflows/draw.yml"
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: install keymap-drawer
+        run: pip install keymap-drawer
+
+      - name: Draw keymap
+        run: |
+          keymap parse -z config/charybdis.keymap > config/charybdis.yaml
+          python3 -c '
+          import yaml
+          with open("config/charybdis.yaml", "r") as f:
+              data = yaml.safe_load(f)
+          if "combos" not in data:
+              data["combos"] = []
+          data["combos"].extend([
+              {"p": [5, 6], "k": "TRACKBALL", "l": ["0"]},
+              {"p": [5, 6], "k": "SCROLL", "l": ["1"]},
+              {"p": [5, 6], "k": "SCROLL", "l": ["5"]}
+          ])
+          with open("config/charybdis.yaml", "w") as f:
+              yaml.dump(data, f)
+          '
+          python3 -c '
+          import json
+          with open("config/charybdis.json", "r") as f:
+              data = json.load(f)
+          data["layouts"] = {"LAYOUT": data.get("layouts", {}).get("default_transform", {})}
+          with open("config/charybdis_info.json", "w") as f:
+              json.dump(data, f)
+          '
+          keymap draw -j config/charybdis_info.json config/charybdis.yaml > keymap.svg
+
+      - name: Commit updated images
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: render keymap.svg"
+          file_pattern: "keymap.svg config/charybdis.yaml"
