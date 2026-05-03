@@ -63,8 +63,7 @@ layers:
   - h: RGUI
     t: ;
   - ''''
-  - h: '4'
-    t: LCTRL
+  - LCTRL
   - Z
   - X
   - C
@@ -80,7 +79,7 @@ layers:
   - SPACE
   - LEFT WIN
   - LALT
-  - ENTER
+  - '`'
   - '4'
   - '&mkp MB2'
   - '1'
@@ -337,8 +336,7 @@ layers:
   - ''
   - ''
   - ''
-  - t: LCTRL
-    type: held
+  - LCTRL
   - ''
   - ''
   - ''
@@ -357,7 +355,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - type: held
   - t: "\u25BD"
     type: trans
   - ''
@@ -403,26 +401,27 @@ layers:
   - ''
   - ''
   - ''
+  - t: "\u25BD"
+    type: trans
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - t: "\u25BD"
+    type: trans
+  - t: "\u25BD"
+    type: trans
+  - ''
+  - ''
+  - ''
   - type: held
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - t: "\u25BD"
-    type: trans
-  - t: "\u25BD"
-    type: trans
-  - ''
-  - ''
-  - ''
-  - ''
   - t: "\u25BD"
     type: trans
   - ''
